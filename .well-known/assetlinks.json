@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.owltechy.twa",
+    "sha256_cert_fingerprints":
+    ["4B:7E:32:BB:4F:CC:F5:CF:70:61:7F:B7:E2:C1:87:7B:30:09:F7:67:27:69:5E:FA:9A:6D:BB:67:6E:C2:A0:D3"]
+  }
+}]
