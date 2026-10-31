@@ -1,0 +1,11 @@
+UPLOAD TO GITHUB PAGES (or any HTTPS host)
+Upload everything in this folder, keeping the structure:
+  index.html, manifest.json, sw.js, assetlinks.json
+  icons/icon-192.png, icons/icon-512.png
+Make sure the site root (for example https://yourname.github.io/bento-booth/) opens index.html.
+
+AFTER PWABUILDER GENERATES THE APK
+1. PWABuilder shows a SHA-256 fingerprint for the signing key.
+2. Replace REPLACE_WITH_SHA256_FROM_PWABUILDER in assetlinks.json with that value.
+3. Upload assetlinks.json again to:  <your site>/.well-known/assetlinks.json
+   (create the .well-known folder, with the file inside it)
